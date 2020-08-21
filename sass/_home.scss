@@ -1,3 +1,18 @@
+nav {
+    .logo {
+        font-weight: 900;
+        font-size: 2.1rem;
+    }
+}
+
+.nav-link {
+    font-size: 1.3rem;
+
+    &:hover {
+        color: orange !important;
+    }
+}
+
 .galleryHome {
     margin-top: 25px;
     color: rgb(116, 113, 113);
@@ -17,7 +32,6 @@
     span {
         font-size: 0.9rem;
     }
-
 
     // mediaqueries
     @media (max-width: 700px) {
@@ -84,7 +98,6 @@
     transform: translateX(24px);
 }
 
-
 .fa-moon {
     color: #f1c40f;
 }
@@ -96,12 +109,12 @@
 // class that turns background and text color
 .dark {
     background: black;
+    color: white;
 
     h4 {
         color: white;
     }
 }
-
 
 // section pic crazy face TEXT!:
 .textoVimeo {
@@ -118,7 +131,7 @@
         padding: 7px 15px;
 
         &:hover {
-            background: rgb(250, 245, 245)
+            background: rgb(250, 245, 245);
         }
 
         a {
@@ -137,7 +150,6 @@
             padding: 4px 10px;
         }
     }
-
 }
 
 // ---NEWS ---
@@ -166,4 +178,18 @@
 
 img {
     height: 150px;
+}
+
+.cartoonTitle {
+    color: gray;
+    font-weight: 800;
+    font-size: 20px;
+
+    @media (min-width: 720px) {
+        font-size: 24px;
+    }
+
+    p {
+        color: rgb(116, 113, 113);
+    }
 }

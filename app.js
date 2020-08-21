@@ -4,7 +4,7 @@ const text = document.querySelector(".turnOff");
 chk.addEventListener("click", () => {
   // document.body.style.background = 'black';
   document.body.classList.toggle("dark");
-  document.text.classList.toggle("white");
+  // document.body.classList.toggle("white");
 });
 
 // to change Text:

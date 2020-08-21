@@ -7,3 +7,25 @@
 button {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+footer {
+    a {
+        color: black;
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    .contact {
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+// CONTACT FORM 
+.error {
+    border: 2px solid red;
+}
+
+.success {
+    border: 2px solid green;
+}
